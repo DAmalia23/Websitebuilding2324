@@ -23,8 +23,12 @@ $bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
 |----------------------------------------------------------------------------
 */
 
-$font-family_1: fontAwesome;
-$border-color_1: rgba(255, 255, 255, 0.3);
+$font-family_1: "Roboto", Helvetica, Arial, sans-serif;
+$font-family_2: "Montserrat", sans-serif;
+$animation-delay: 0.7s;
+$progressbar-title-color: #fff;
+$li-padding: 5px;
+
 $border-color_2: #cc005f;
 
 $color_1: #4e4e4e;
@@ -33,6 +37,18 @@ $color_3: #cc005f;
 $color_4: #f5f5f5;
 $color_5: #fff;
 $color_6: #cde1f8;
+$red: #c0392b;
+$blue: #075997;
+$purple: #9b59b6;
+$orange: #ffa500;
+$green: #03844a;
+
+$reactColor: rgb(20 158 202/0.7);
+$vueColor: #42b883;
+$angularColor: #f9174d;
+
+$btn-color: $vueColor;
+$btn-color-2: $reactColor;
 $background-color_1: #f5f5f5;
 $background-color_2: #cc005f;
 $background-color_3: #fff;
@@ -61,21 +77,35 @@ $heart: #fb866a;
 $dm-background: #17191c;
 $dm-text-color: rgba(256, 256, 256, 0.9);
 $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
+$border-top-color_1: #eee;
+
+$text-color: #434343;
+$text-color-secondary: #666;
+$grey: #999;
+$divider: #e8e8e8;
+$lighter-grey: #ccc;
+$darker-grey: #666;
+$smoky-white: #f5f5f5;
+$background: #dae3e7;
+$heart: #fb866a;
+
+$dm-background: #17191c;
+$dm-text-color: rgba(256, 256, 256, 0.9);
+$dm-text-color-secondary: rgba(256, 256, 256, 0.7);
+
+@import "../../node_modules/glightbox/dist/css/glightbox.min.css";
 
 //*************************** Theme Styles ****************************/
 // Import theme styles
-
+// @import "darkmode";
 @import "general";
 @import "base";
 @import "header";
 @import "banner";
 @import "social";
-
 @import "about";
+@import "experience";
+@import "portofolio";
+@import "githubapi";
 @import "contact";
 @import "footer";
-
-// @import "dark-mode";
-// @import "responsive";
-
-@import "tot";
